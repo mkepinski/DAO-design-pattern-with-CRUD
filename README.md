@@ -1,1 +1,3 @@
 # DAO-design-pattern-with-CRUD
+
+This project uses Data Access Object design pattern to easily connect a user with a simplified database. General file structure is divided into 3 categories: main, storing the main class and class with database utilities, entity: storing project main entities, such as User, Transaction and Car classes. The third package 'dao' contains implementation of previously mentioned DAO pattern used to access database upon user's request. The main thought behind program's logic could be so that it works as either car renting company, car selling company or with some additional work, anything else. Program should be accessed through the main class in 'main' package.
